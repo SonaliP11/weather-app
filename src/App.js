@@ -5,7 +5,7 @@ function App() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
 
-  const API_KEY = "83471ede3a178c3489c014090dbb55e1"; // Replace with your actual API key
+  const API_KEY = process.env.REACT_APP_API_KEY; // Get API key from .env file
 
   const getWeather = async () => {
     if (!city) return;
