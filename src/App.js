@@ -81,10 +81,13 @@ function App() {
           <p>Weather: {weather.weather[0].description}</p>
           <p>Wind Speed: {weather.wind.speed} m/s</p>
           <p>Humidity: {weather.main.humidity}%</p>
+          <div className="weather-icon-container">
           <img
+            className="weather-icon"
             src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
-            alt="Weather Icon"
+            alt="Weather Icon" 
           />
+          </div>
         </div>
       )}
     </div>
