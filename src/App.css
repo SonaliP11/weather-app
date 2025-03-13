@@ -2,7 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   text-align: center;
-  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
 /* Title */
 h1 {
   font-size: 26px;
-  color: #444;
+  color: #333;
   margin-bottom: 10px;
 }
 
@@ -75,7 +75,7 @@ button:hover {
 
 .weather-info p {
   font-size: 18px;
-  color: #444;
+  color: #333;
   margin: 5px 0;
 }
 
@@ -83,4 +83,40 @@ button:hover {
 .weather-info img {
   width: 100px;
   height: 100px;
+  margin: 10px;
+  border: #222 1px solid;
+  border-radius: 50%;
+  background-color: snow;
+}
+
+/* Forecast section */
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.forecast-item {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-item h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.forecast-item img {
+  width: 50px;
+  height: 50px;
+}
+
+.forecast-item p {
+  font-size: 14px;
+  color: #333;
 }
