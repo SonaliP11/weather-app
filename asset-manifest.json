@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SonaliP11/weather-app/static/css/main.82e0f674.css",
+    "main.js": "/SonaliP11/weather-app/static/js/main.56fd0f5f.js",
+    "index.html": "/SonaliP11/weather-app/index.html",
+    "main.82e0f674.css.map": "/SonaliP11/weather-app/static/css/main.82e0f674.css.map",
+    "main.56fd0f5f.js.map": "/SonaliP11/weather-app/static/js/main.56fd0f5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e0f674.css",
+    "static/js/main.56fd0f5f.js"
+  ]
+}
